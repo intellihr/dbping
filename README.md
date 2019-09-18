@@ -18,5 +18,5 @@ The following command wait until both `db1` and `db2` are available (with `10s` 
 
 ```
 RUN curl -L https://github.com/intellihr/dbwait/releases/download/v0.0.1/dbwait > /usr/local/bin/dbwait && \
-    chmod +x /usr/local/dbwait
+    chmod +x /usr/local/bin/dbwait
 ```
